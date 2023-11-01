@@ -49,3 +49,43 @@ table {
 /* css reset end */
 
 /* my styles */
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1e1e1e; /* i like dark theme :) */
+	color: #dcddde;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #dcddde;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+	width: 100%;
+}
+
+.emoji-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+}
+
+.emoji-card {
+    background-color: #333;
+    border: 1px solid #555;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 30px 10px;
+    text-align: center;
+    width: 120px;
+}
+
+.emoji {
+    font-size: 2em;
+    padding-bottom: .5em; 
+}
